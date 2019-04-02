@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Upqode</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+	<script src="main.js"></script>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+			<div class="container">
+				<a class="navbar-brand col-5 p-2 bd-highlight text-uppercase" href="#"><span class="navbar-brand-first2letters">up</span><span>qode</span></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+		
+				<div class="collapse navbar-collapse col-7" id="navbarTogglerDemo02">
+					<ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+						<li class="nav-item ">
+							<a class="nav-link"  href="#">home</a>
+						</li>
+						<li class="nav-item dropdown">
+								<a class="nav-link " id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">products</a>
+								<ul class="dropdown-menu" aria-labelledby="dropdown1">
+										<li class="dropdown-item"><a href="#">jackets</a></li>
+										<li class="dropdown-item"><a href="#">shirts</a></li>
+										<li class="dropdown-item"><a href="#">pants</a></li>
+										<li class="dropdown-item dropright">
+												<a class="dropdown-toggle products"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">shoes</a>
+												<ul class="dropdown-menu" aria-labelledby="dropdown1-1">
+														<li class="dropdown-item"><a href="#">men</a></li>
+														<li class="dropdown-item"><a href="#">women</a></li>
+												</ul>
+										</li>
+								</ul>
+						</li>
+						<li class="nav-item">
+								<a class="nav-link"  href="#about">about</a>
+						</li>
+						<li class="nav-item">
+								<a class="nav-link" href="#contact">contact</a>
+						</li>
+					</ul>
+
+
+
+					
+					<form class="form-inline my-2 my-lg-0 d-none d-md-block">
+							<div class="input-group">
+									<input type="text" class="form-control border border-0 bg-light .d-none .d-lg-block .d-xl-none">
+									<div class="input-group-append .d-none .d-lg-block .d-xl-none">
+										<button class="btn bg-light " type="button" >
+											<i class="fa fa-search"></i>
+										</button>
+									</div>
+								</div>
+					</form>
+				</div>
+		</div>
+		</nav>
+	</header>
+
+
+	<section class="carousel">
+			<div class="bd-example h-100">
+					<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner text-center h-100">
+							<div class="carousel-item active h-100">
+								<img src="./img/background-slider.jpg" class="d-block w-100 h-100" alt="creative design agency">
+								<div class="carousel-caption d-none d-flex h-100 align-items-center justify-content-center flex-column">
+										<h6 class="carousel-caption-title text-uppercase">creative<span class="text-uppercase"> design agency</span></h6>
+									<p class="carousel-caption-description">Nunc eleifend sed nibh ac convallis. Sed tempus magna sit amet mi semper, a. <br>
+										Sed risus mi, laoreet eget hendrerit id, ullamcorper ac ligula. Integer.</p>
+								</div>
+							</div>
+							<div class="carousel-item text-center h-100">
+								<img src="./img/background-slider.jpg" class="d-block w-100 h-100" alt="creative design agency">
+								<div class="carousel-caption d-none d-flex h-100 align-items-center justify-content-center flex-column">
+										<h6 class="carousel-caption-title text-uppercase">creative<span class="text-uppercase"> design agency</span></h6>
+										<p>Nunc eleifend sed nibh ac convallis. Sed tempus magna sit amet mi semper, a. <br>
+											Sed risus mi, laoreet eget hendrerit id, ullamcorper ac ligula. Integer.</p>
+								</div>
+							</div>
+							<div class="carousel-item h-100">
+								<img src="./img/background-slider.jpg" class="d-block w-100 h-100" alt="creative design agency">
+								<div class="carousel-caption d-none d-flex h-100 align-items-center justify-content-center flex-column">
+										<h6 class="carousel-caption-title text-uppercase">creative<span class="text-uppercase"> design agency</span></h6>
+										<p>Nunc eleifend sed nibh ac convallis. Sed tempus magna sit amet mi semper, a. <br>
+											Sed risus mi, laoreet eget hendrerit id, ullamcorper ac ligula. Integer.</p>
+								</div>
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+	</section>
+
+	
+
+	<section class="choose">
+		<div class="container d-flex flex-column">
+			<div class="choose-caption w-100">
+				<h2 class="choose-caption-title text-black text-center text-uppercase">why <span class="text-uppercase">choose us</span></h2>
+				<p class="choose-description text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis auctor tincidunt. Nulla dolor purus, imperdiet.<br>
+					Nam cursus ante vitae ex luctus, nec consequat.</p>
+			</div>
+					<div class="card-deck h-100">
+							<div class="card ">
+									<i class="far fa-heart text-center "></i>
+								<div class="card-body">
+									<h5 class="card-title text-uppercase text-center">your title</h5>
+									<p class="card-text text-center">Mauris pharetra nulla <br>sed gravida varius.</p>
+									<p class="see text-center text-uppercase">see more</p>
+									<p class="text-center"><i class="fa fa-link" aria-hidden="true"></i><i class="fas fa-search-plus" aria-hidden="true"></i></p>
+								</div>
+							</div>
+							<div class="card ">
+									<i class="far fa-comment-dots text-center "></i>
+									<div class="card-body">
+											<h5 class="card-title text-uppercase text-center">your title</h5>
+											<p class="card-text text-center">Mauris pharetra nulla <br>sed gravida varius.</p>
+											<p class="see text-center text-uppercase">see more</p>
+											<p class="text-center"><i class="fa fa-link" aria-hidden="true"></i><i class="fas fa-search-plus" aria-hidden="true"></i></p>
+									</div>
+							</div>
+							<div class="card ">
+									<i class="fas fa-laptop text-center "></i>
+									<div class="card-body">
+											<h5 class="card-title text-uppercase text-center">your title</h5>
+											<p class="card-text text-center">Mauris pharetra nulla <br>sed gravida varius.</p>
+											<p class="see text-center text-uppercase">see more</p>
+											<p class="text-center"><i class="fa fa-link" aria-hidden="true"></i><i class="fas fa-search-plus" aria-hidden="true"></i></p>
+									</div>
+							</div>
+							<div class="card ">
+									<i class="far fa-star text-center "></i>
+									<div class="card-body">
+											<h5 class="card-title text-uppercase text-center">your title</h5>
+											<p class="card-text text-center">Mauris pharetra nulla <br>sed gravida varius.</p>
+											<p class="see text-center text-uppercase">see more</p>
+											<p class="text-center"><i class="fa fa-link" aria-hidden="true"></i><i class="fas fa-search-plus" aria-hidden="true"></i></p>
+									</div>
+							</div>
+							<div class="card ">
+									<i class="far fa-flag text-center "></i>
+									<div class="card-body">
+											<h5 class="card-title text-uppercase text-center">your title</h5>
+											<p class="card-text text-center">Mauris pharetra nulla <br>sed gravida varius.</p>
+											<p class="see text-center text-uppercase">see more</p>
+											<p class="text-center"><i class="fa fa-link" aria-hidden="true"></i><i class="fas fa-search-plus" aria-hidden="true"></i></p>
+									</div>
+							</div>
+					</div>
+		</div>
+	</section>
+
+
+	<section class="about" id="about">
+		<div class="container d-flex flex-row ">
+			<div class="about-skills d-none d-md-block">
+			<div class="about-caption">
+				<div class="about-caption-title">
+					<h2 class="about-caption-title-inner text-uppercase text-justify">about <span>us</span></h2>
+				</div>
+				<div class="about-caption-description text-left text-justify">
+					<p class="about-caption-description-inner">Quisque ultrices semper interdum. Phasellus at metus a lacus lobortis viverra <br>
+						ut nec libero. Sed vitae orci a.</p>
+				</div>
+				<div class="about-caption-skills-description text-justify">
+					<p class="about-caption-skills-description-inner">Nulla velit nisi, placerat in ante sit amet, sodales venenatis dolor.
+					Integer sapien sem, semper vitae magna vitae, posuere hendrerit odio.<br>
+					Aliquam varius quam consequat, porta dui vitae, vestibulum sem. Proin<br>
+					suscipit. Cras massa libero, pharetra finibus arcu id, iaculis mattis enim. <br>Sed 
+					urna velit, hendrerit eu ipsum vitae, vulputate.</p>
+				</div>
+			</div>
+			<div class="skills-bar text-left" id="progress-skills">
+				<div class="skills-first">
+					<div class="skills-inner d-flex justify-content-between ">
+						<p class="skills-inner-title text-uppercase">
+							photoshop
+						</p>
+						<p class="number text-left">79%</p>
+					</div>
+					<div class="progress d-flex align-items-center" style="color:white">
+							<span class="progress-bar" style="width: 79%;"></span>
+					</div>
+				</div>
+				<div class="skills">
+						<div class="skills-inner d-flex justify-content-between ">
+							<p class="skills-inner-title text-uppercase">
+								html/css
+							</p>
+							<p class="number text-left">90%</p>
+						</div>
+						<div class="progress d-flex align-items-center" style="color:white">
+								<span class="progress-bar skills-html" style="width: 90%;"></span>
+						</div>
+					</div>
+					<div class="skills">
+							<div class="skills-inner d-flex justify-content-between ">
+								<p class="skills-inner-title text-uppercase">
+									javascript
+								</p>
+								<p class="number text-left">69%</p>
+							</div>
+							<div class="progress d-flex align-items-center" style="color:white">
+									<span class="progress-bar skills-js" style="width: 95%;"></span>
+							</div>
+						</div>
+						<div class="skills">
+								<div class="skills-inner d-flex justify-content-between ">
+									<p class="skills-inner-title text-uppercase">
+										wordpress
+									</p>
+									<p class="number text-left">92%</p>
+								</div>
+								<div class="progress d-flex align-items-center" style="color:white">
+										<span class="progress-bar skills-wordpress" style="width: 92%;"></span>
+								</div>
+							</div>
+						</div>
+			</div>
+			<div class="image d-none d-md-block">
+					<img src="./img/ipad.jpg" class="img-fluid" alt="ipad">
+			</div>
+		</div>
+	</section>
+
+	
+	<section class="contact" id="contact">
+		<div class="container">
+			<div class="contact-title text-center">
+				<h2 class="contact-title-inner text-uppercase">get in <span>touch</span></h2>
+				<p class="contact-description">Curabitur convallis quis sapien eu lacinia. Ut at massa varius, finibus velit eget, ultrices elit. Ut mattis <br>
+					porta odio rhoncus volutpat. Sed nec tempor.</p>
+			</div>
+		</div>
+		
+		<div id="map">
+		</div>
+		<div class="container d-none d-md-block">
+				<div class="contact-form col-10 d-flex 	">
+						<form class="contact-form-input-group d-none d-md-block" action="https://formspree.io/valerasam1012@gmail.com" method="POST">
+							<div class="main-information d-flex justify-content-start">
+								<div class="information-name">
+									<input id="input-name" type="text" name="name" placeholder="	Full Name">
+								</div>
+								<div class="information-email">
+									<input id="input-email" type="text" name="email" placeholder="	E-mail Address">
+								</div>
+							</div>
+							<div class="message-information">
+								<div class="message-information-main">
+									<textarea id="main-message" placeholder="	Message" cols="49" name="message"></textarea>
+								</div>
+						</div>
+						<div class="message-send d-flex justify-content-between">
+							<div class="checkbox-status">
+								<label ><input type="checkbox"><span>I like your company</span></label>
+							</div>
+							<div class="button-send">
+								<button type="submit" class="submit btn btn-outline-primary">Send</button>
+							</div>
+						</div>
+					</form>
+	
+					<div class="contact-form-description">
+						<div class="contact-about">
+							<p>69/A Some StreetName <br>
+							Your City, code 01234 <br>
+							Contry Name</p>
+							<p>+880 123 456 78 98 <br>
+							+860 987 648 74 95</p>
+							<p>company@mail.com<br>
+								sales@mail.com
+							</p>
+						</div>
+					</div>
+				</div>
+
+		</div>
+
+	</section>
+	<footer class="d-flex justify-content-between ">
+		<p class="text-capitalize ">copyright &copy company. all rights reserved 2016</p>
+		<ul class="social d-flex ">
+			<li> <a href="#"><i class="fab fa-facebook-f" style="color: #5c73a1"></i></a></li>
+			<li><a href="#"><i class="fab fa-google-plus-g " style="color: #92473b"></i></a></li>
+			<li><a href="#"><i class="fab fa-twitter" style="color:#71d6fa"></i></a></li>
+			<li><a href="#"><i class="fab fa-dribbble" style="color:#e9779d"></i></a></li>
+		</ul>
+	</footer>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADeNEEdGVNpzcHj4PNpzIObTDaMvjFKWE&callback=initMap" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
