@@ -1,5 +1,4 @@
-/node_modules
+node_modules
 *.scss
-*.md
 yarn.lock
 package-lock.json
