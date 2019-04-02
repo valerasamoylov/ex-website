@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "sass": "^1.17.3"
+  },
+  "name": "upqode-ex-task",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://valerasamoylov.github.io/ex-website",
+  "description": {
+    "gh-pages": "^2.0.1"
+  }
+}
